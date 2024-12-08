@@ -1,0 +1,85 @@
+/* Estilo global aplicado a todos elementos */
+* {
+    background-color: #03122f;
+    font-family: Arial, sans-serif;
+    gap: 10px;
+}
+
+/* Container principal do menu */
+.navbar {
+    display: flex;           /* Habilita flexbox */
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;          /* Espaçamento interno */
+    border-bottom: #f3dadf 1px outset;
+}
+
+/* Lista de itens do menu */
+.nav-menu {
+    display: flex;          /* Habilita flexbox */
+    flex-direction: row;    /* Alinha itens horizontalmente */
+    list-style: none;       /* Remove bullets da lista */
+    padding: 0;            /* Remove padding padrão da lista */
+    margin: 0;             /* Remove margin padrão da lista */
+    gap: 1rem;            /* Espaçamento entre elementos */
+    font-size: 25px;
+
+}
+
+/* Itens individuais do menu */
+.nav-menu li {
+    margin: 0 4rem;        /* Espaçamento horizontal entre itens */
+    text-decoration: none; /* Remove decoração de texto */
+}
+
+/* Links dentro do menu */
+.nav-menu a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-weight: 700;     /* Peso da fonte (negrito) */
+    color: #f3dadf;       /* Cor do texto */
+}
+
+/* Estilo dos títulos */
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #ae7dac;       /* Cor do texto */
+    padding-top: auto;    /* Espaçamento superior */
+    font-size: 40px;      /* Tamanho da fonte */    
+}
+
+/* Estilo dos parágrafos */
+p { 
+    display: flex;
+    justify-content: center;
+    color: #f3dadf;        /* Cor do texto */
+    padding-bottom: 1rem;  /* Espaçamento inferior */
+    font-size: 18px;       /* Tamanho da fonte */
+}
+
+.imagem-bloco {             /*bloco pai*/
+    width: 100%;           /* Ocupar largura total */
+    max-width: 800px;      /* Largura máxima para o contêiner */
+    margin: 0 auto;        /* Centraliza horizontalmente */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+    align-items: center;
+    border: #f3dadf 2px solid;
+}
+
+.imagem-bloco img {
+    width: 100%;           /* Largura responsiva */
+    max-width: 800px;      /* Largura máxima */
+    height: auto;          /* Altura automática mantendo proporção */
+}
+
+h5 {
+    color: #f3dadf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #f3dadf 1px outset;
+    padding: 15px;
+    margin-top: 0px;
+    font-weight: 200;
+}
